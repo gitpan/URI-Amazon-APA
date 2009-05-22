@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               URI-Amazon-APA
-version:            0.01
+version:            0.02
 abstract:           URI to access Amazon Product Advertising API
 author:
     - Dan Kogai <dankogai@dan.co.jp>
