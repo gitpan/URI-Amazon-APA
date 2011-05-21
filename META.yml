@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               URI-Amazon-APA
-version:            0.03
+version:            0.04
 abstract:           URI to access Amazon Product Advertising API
 author:
     - Dan Kogai <dankogai@dan.co.jp>
@@ -12,6 +12,7 @@ build_requires:
     ExtUtils::MakeMaker:  0
 requires:
     Digest::SHA:  0
+    Encode:       2
     Test::More:   0
     URI:          1.36
     URI::Escape:  0
@@ -19,7 +20,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
